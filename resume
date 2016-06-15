@@ -1,62 +1,18 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-		<title></title>
-	</head>
-	<body>
-	    <div id="header">
-	    <p id="name">Brian C. Wise</p>
-	    <a href="mailto:brianwisenyc@gmail.com"><p id="email">Brian Wise's e-mail</p></a></div>
-	<div class="left"></div>
-	<div class="right">
-    <h3>Writer and Producer: 1998-Present</h3>
-        <p>
-        <UL>
-            <LI>BBC Music Magazine: Write feature articles including a monthly North American events calendar (December 2012-Present)
-            <li>Features and news coverage for Slate, FiveThirtyEight, The New York Times, Wall Street Journal, Listen Magazine, Christian Science Monitor, Financial Times.       </li>
-        </ul></p>
-    <h3>WQXR Radio: Digital Editor, December 2010 - November 2015</h3><p>
-    <ul><li>Manage WQXR’s online editorial content. Develop WQXR.org as a key source for classical music news and a destination for show content, playlists and podcasts.
- <li>Manage a team of freelance writers and producers, commission and edit articles that lead discussions and drive engagement.
- <li>Plan, create and edit digital content including audio features, blog posts, photo essays, infographics, videos and packages.
- <li>Launch and produce "Conducting Business," a roundtable podcast about the music industry. Identify topics and guests, write scripts and edit sessions.
- <li>Monitor analytics tools and social media to understand audience engagement and make strategic editorial decisions.
- <li>Produce “Cafe Concerts,” an online performance and interview video series featuring more than 75 prominent musicians.
- <li>Create online style guide; ensure that content adheres to SEO, brand guidelines.
- <li>Write and produce weekly station newsletter reaching 50,000 subscribers. </li></ul><p>
-
-<h3>WNYC Radio: Associate Producer, Soundcheck: Sept. 2003 - November 2010</h3><p>
-        
-    <h3>Skills</h3>
-    <p>
-        <ul>
-        <li>ProTools, Photo Shop, Wordpress
-        <li>HTML, DAVID Systems, Google Analytics.</li>
-        </ul>
-</p>
-	
-	</div>
-<div id="footer">
-			<p>150 Joralemon Street | Tel: 646-319-8970</p>
-		</div>
-	
-	</body>
-</html>
-
-CSS
-
-div{
+	<style>
+	div{
     border-radius: 5px;
 }
 
 #header {
 	z-index: 1;
-	position: fixed;
+	position: absolute;
 	width: 99%;
 	margin-top: -20px;
 	height: 60px;
-	background-color: #8fd0d8;
+	background-color: #668284;
 	margin-bottom: 10px;
 }
 
@@ -79,16 +35,14 @@ div{
 }
 
 .left {
-    position: relative;
+
+	position: relative;
 	float: left;
 	margin-top: 50px;
-    height: 400px;
 	width: 10%;
-    border-radius:5px;
-    border: 1px solid black;
-    background-color:#dfb685;
-    margin:2px solid;
-    float:left;
+	height: 1041px;
+	background-color: #f8ebd8;
+	margin-bottom: 10px;
 }
 
 
@@ -99,11 +53,11 @@ h3 {
 }
 
 .right {
-    height: 400px;
 	width: 88%;
 	margin-top:50px;
     border-radius:5px;
-    background-color:#8cdbb3;
+    padding: 10px 5000 px 10px 5000px;
+    background-color:#ded6ce;
     border: 1px solid black;
     position:relative;
     float:right;
@@ -133,3 +87,71 @@ li {
 	font-family: Verdana, sans-serif;
 	color: #ffffff;
 }
+</style>
+		<title></title>
+	</head>
+	<body>
+	    <div id="header">
+	    <p id="name">Brian C. Wise</p>
+	    <a href="mailto:brianwisenyc@gmail.com"><p id="email">Contact Me</p></a></div>
+	<div class="left"></div>
+	<div class="right">
+    <h3>Writer and Producer: 1998-Present</h3>
+        <p>
+        <UL>
+            <LI>BBC Music Magazine: Write feature articles including a monthly North American events calendar (December 2012-Present)
+            <li>Features and news coverage for Slate, FiveThirtyEight, The New York Times, Wall Street Journal, Listen Magazine, Christian Science Monitor, Financial Times.       </li>
+        </ul></p>
+    <h3>WQXR Radio: Digital Editor, December 2010 - November 2015</h3><p>
+    <ul><li>Manage WQXR's online editorial content. Develop WQXR.org as a key source for classical music news and a destination for show content, playlists and podcasts.
+ <li>Manage a team of freelance writers and producers, commission and edit articles that lead discussions and drive engagement.
+ <li>Plan, create and edit digital content including audio features, blog posts, photo essays, infographics, videos and packages.
+ <li>Launch and produce "Conducting Business," a roundtable podcast about the music industry. Identify topics and guests, write scripts and edit sessions.
+ <li>Monitor analytics tools and social media to understand audience engagement and make strategic editorial decisions.
+ <li>Produce "Cafe Concerts," an online performance and interview video series featuring more than 75 prominent musicians.
+ <li>Create online style guide; ensure that content adheres to SEO, brand guidelines.
+ <li>Write and produce weekly station newsletter reaching 50,000 subscribers. </li></ul><p>
+
+<h3>WNYC New York Public Radio: Associate Producer, "Soundcheck," September 2003 - November 2010</h3><p>
+<ul><li>Produce a live daily afternoon talk program about music and the arts.
+<li>Conceive and develop segments; research, book and pre-interview guests.
+<li>Write and edit scripts for host; cover breaking news as needed.
+<li>Direct live show; edit and post-produce taped segments; oversee remote productions including special series from Berlin, Germany and Austin, Texas.
+<li>Produce and direct live broadcasts from The Greene Space, WNYC's street-level public performance and broadcast venue.
+</li></ul></p>
+<h3>WNYC New York Public Radio: Online Culture Producer, Aug. 2002 - Sept. 2003</h3><p>
+<ul><li>Develop and manage all music and cultural content for the website of WNYC Radio.
+<li>Create show and broadcast pages; produce multimedia and audio features; report, write and edit music news.</li></ul><p>
+
+<h3>Stagebill Media: Associate Editor, January 2002 - June 2002 </h3><p>
+<ul><li>Assign and edit articles for program books of major performing arts institutions including Lincoln Center, the Philadelphia Orchestra and the Atlanta Symphony Orchestra.
+<li>Manage the Stagebill website.</li></ul><p>
+
+<h3>WQXR Radio, New York Times Radio Station: Online Producer, 2000 - 2001</h3><p>
+<ul><li>Create album features; curate an online concert calendar; other copy as needed.</li></ul><p>
+
+<h3>Jay K. Hoffman & Associates: Publicity Associate, 1998-2000</h3><p>
+<ul><li>Administer publicity campaigns for clients in the classical music field including performers, conductors, festivals, orchestras and arts venues.
+<li>Write press releases, story proposals and marketing copy for a range of clients.</li></ul><p>
+
+<h3>Education:</h3><p>
+<ul><li>Northwestern University, Masters in Musicology (1996)
+<li>University of Michigan, Bachelor of Musical Arts, Music History, Journalism (1995)
+<li>Manhattan School of Music, post-graduate studies (1997)
+</li></ul><p>
+        
+    <h3>Skills</h3>
+    <p>
+        <ul>
+        <li>ProTools, Photo Shop, Wordpress
+        <li>HTML, DAVID Systems, Google Analytics.</li>
+        </ul>
+</p>
+	
+	</div>
+<div id="footer">
+			<p>150 Joralemon Street | Tel: 646-319-8970</p>
+		</div>
+	
+	</body>
+</html>
